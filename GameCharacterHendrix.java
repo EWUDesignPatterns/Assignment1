@@ -1,6 +1,6 @@
 class GameCharacterHendrix extends GameCharacter {
   public void GameCharacterHendrix() {
-    super("Hendrix");
+    this.name = "Jimmy Hendrix";
     guitar = new FlyingV();
     solo = new OnFire();
   }

@@ -1,12 +1,11 @@
 public class GameCharacter {
+  
 	protected GuitarBehavior guitar;
 	protected SoloBehavior solo;
-
 	
-	private String name;
+	protected String name;
 	
-	public void GameCharacter(String name) {
-	  this.name = name;
+	public void GameCharacter() {
 	}
 	
 	public String getName()
