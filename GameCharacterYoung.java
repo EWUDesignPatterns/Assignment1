@@ -1,6 +1,6 @@
-class GameCharacterYoung extends GameCharacter {
+public class GameCharacterYoung extends GameCharacter {
   public GameCharacterYoung() {
-    this.name = "Angus Young";
+    super("Angus Young");
     guitar = new Fender();
     solo = new Jump();
   }

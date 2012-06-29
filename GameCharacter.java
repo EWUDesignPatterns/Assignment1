@@ -2,10 +2,10 @@ public class GameCharacter {
   
 	protected GuitarBehavior guitar;
 	protected SoloBehavior solo;
+	private String name;
 	
-	protected String name;
-	
-	public void GameCharacter() {
+	public GameCharacter(String name) {
+	  this.name = name;
 	}
 	
 	public String getName()

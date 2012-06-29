@@ -1,7 +1,7 @@
-class GameCharacterSlash extends GameCharacter {
+public class GameCharacterSlash extends GameCharacter {
   
   public GameCharacterSlash() {
-    this.name = "Slash";
+    super("Slash");
     guitar = new FlyingV();
     solo = new SmashGuitar();
   }
