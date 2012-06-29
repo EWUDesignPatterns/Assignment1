@@ -1,9 +1,9 @@
 public class GameCharacter {
-	private GuitarBehavior guitar;
-	private SoloBehavior solo;
+	protected GuitarBehavior guitar;
+	protected SoloBehavior solo;
 
 	
-	private name;
+	private String name;
 	
 	public void GameCharacter(String name) {
 	  this.name = name;
@@ -16,11 +16,11 @@ public class GameCharacter {
 
 	public void	playGuitar()
 	{
-		this.guitar.playGuitar();
+		this.guitar.playGuitar(this.name);
 	}
 	
 	public void playSolo()
 	{
-		this.solo.playSolo();
+		this.solo.playSolo(this.name);
 	}
 }

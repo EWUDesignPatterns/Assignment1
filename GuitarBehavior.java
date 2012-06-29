@@ -1,3 +1,3 @@
 public interface GuitarBehavior {
-	public void playGuitar();
+	public void playGuitar(String name);
 }

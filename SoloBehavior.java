@@ -1,4 +1,4 @@
 public interface SoloBehavior {
-	public void playSolo();
+	public void playSolo(String name);
 
 }

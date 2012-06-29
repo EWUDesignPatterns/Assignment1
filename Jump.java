@@ -1,4 +1,4 @@
 class Jump implements SoloBehavior {
-	public void playSolo() {
-		System.out.println("You have just jumped off the stage. Wow!");
+	public void playSolo(String name) {
+		System.out.println(name + " has just jumped off the stage. Wow!");
 }

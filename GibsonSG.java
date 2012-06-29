@@ -1,5 +1,5 @@
 class GibsonSG implements GuitarBehavior {
-	public void playGuitar() {
-		System.out.println("The GibsonSG goes twang, twang, twang!");
+	public void playGuitar(String name) {
+		System.out.println(name + " makes the GibsonSG goes twang, twang, twang!");
 	}
 }

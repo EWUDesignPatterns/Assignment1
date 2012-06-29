@@ -1,5 +1,5 @@
 class Fender implements GuitarBehavior {
-    public void playGuitar() {
-        System.out.println("The fender goes wang, wang, wang.");
-    }
+  public void playGuitar(String name) {
+    System.out.println(name + " makes the fender goes wang, wang, wang.");
+  }
 }

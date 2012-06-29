@@ -1,5 +1,5 @@
 class SmashGuitar implements SoloBehavior {
-	public void playSolo() {
-		System.out.println("You smash the guitar like a god of rock and roll!");
+	public void playSolo(String name) {
+		System.out.println(name + " smashed the guitar like a god of rock and roll!");
 	}
 }

@@ -1,5 +1,5 @@
 class FlyingV implements GuitarBehavior {
-	playGuitar() {
-		System.out.println("The flying v goes woosh!");
+	public void playGuitar(String name) {
+		System.out.println(name + " makes the flying v goes woosh!");
 	}
 }
