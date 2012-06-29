@@ -22,4 +22,9 @@ public class GameCharacter {
 	{
 		this.solo.playSolo(this.name);
 	}
+	
+	public void changeGuitar(GuitarBehavior guitar)
+	{
+		this.guitar = guitar;
+	}
 }
