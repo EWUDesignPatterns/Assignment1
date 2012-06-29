@@ -4,11 +4,11 @@ public class GameCharacter {
 	
 	public void	playGuitar()
 	{
-		
+		this.guitar.playGuitar();
 	}
 	
 	public void playSolo()
 	{
-		
+		this.solo.playSolo();
 	}
 }
