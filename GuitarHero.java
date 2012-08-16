@@ -7,5 +7,11 @@ public class GuitarHero {
     player2.playGuitar();
     player1.playSolo();
     player2.playSolo();
+    
+    player1.setGuitar(new Fender());
+    player1.playGuitar();
+    
+    player2.setSolo(new Jump());
+    player2.playSolo();
 	}
 }

@@ -7,11 +7,6 @@ public class GameCharacter {
 	public GameCharacter(String name) {
 	  this.name = name;
 	}
-	
-	public String getName()
-	{
-	  return this.name;
-	}
 
 	public void	playGuitar()
 	{
@@ -22,9 +17,18 @@ public class GameCharacter {
 	{
 		this.solo.playSolo(this.name);
 	}
-	
-	public void changeGuitar(GuitarBehavior guitar)
+
+
+	public String getName()
 	{
-		this.guitar = guitar;
+	  return this.name;
+	}
+	
+	public void setGuitar(GuitarBehavior gb) {
+	  this.guitar = gb;
+	}
+	
+	public void setSolo(SoloBehavior sb) {
+	  this.solo = sb;
 	}
 }
